@@ -1,0 +1,50 @@
+
+auls-MacBook-Pro:ALU.testcodes paul$ iverilog -o generic genericTest.v
+Pauls-MacBook-Pro:ALU.testcodes paul$ ./generic
+PERFORMING ANDINPUT a=00000000  INPUT b=00000000 RESULT=00000000 |||| M=0 sel=0000 clk=0 sh=0  carry =z   time=                   0
+INPUT a=00000000  INPUT b=00000001 RESULT=00000000 |||| M=0 sel=0000 clk=0 sh=0  carry =z   time=                   1
+INPUT a=00000000  INPUT b=00000010 RESULT=00000000 |||| M=0 sel=0000 clk=0 sh=0  carry =z   time=                   2
+INPUT a=00000000  INPUT b=00000011 RESULT=00000000 |||| M=0 sel=0000 clk=0 sh=0  carry =z   time=                   3
+INPUT a=00000000  INPUT b=00000100 RESULT=00000000 |||| M=0 sel=0000 clk=0 sh=0  carry =z   time=                   4
+INPUT a=00000000  INPUT b=00000101 RESULT=00000000 |||| M=0 sel=0000 clk=0 sh=0  carry =z   time=                   5
+INPUT a=00000000  INPUT b=00000110 RESULT=00000000 |||| M=0 sel=0000 clk=0 sh=0  carry =z   time=                   6
+INPUT a=00000000  INPUT b=00000111 RESULT=00000000 |||| M=0 sel=0000 clk=0 sh=0  carry =z   time=                   7
+INPUT a=00000000  INPUT b=00001000 RESULT=00000000 |||| M=0 sel=0000 clk=0 sh=0  carry =z   time=                   8
+INPUT a=00000000  INPUT b=00001001 RESULT=00000000 |||| M=0 sel=0000 clk=0 sh=0  carry =z   time=                   9
+INPUT a=00000000  INPUT b=00001010 RESULT=00000000 |||| M=0 sel=0000 clk=0 sh=0  carry =z   time=                  10
+INPUT a=00000000  INPUT b=00001011 RESULT=00000000 |||| M=0 sel=0000 clk=0 sh=0  carry =z   time=                  11
+INPUT a=00000000  INPUT b=00001100 RESULT=00000000 |||| M=0 sel=0000 clk=0 sh=0  carry =z   time=                  12
+INPUT a=00000000  INPUT b=00001101 RESULT=00000000 |||| M=0 sel=0000 clk=0 sh=0  carry =z   time=                  13
+INPUT a=00000000  INPUT b=00001110 RESULT=00000000 |||| M=0 sel=0000 clk=0 sh=0  carry =z   time=                  14
+INPUT a=00000000  INPUT b=00001111 RESULT=00000000 |||| M=0 sel=0000 clk=0 sh=0  carry =z   time=                  15
+
+INPUT a=00001010  INPUT b=00001100 RESULT=11110101 |||| M=0 sel=0100 clk=0 sh=0  carry =z   time=               66732
+INPUT a=00001010  INPUT b=00001101 RESULT=11110101 |||| M=0 sel=0100 clk=0 sh=0  carry =z   time=               66733
+INPUT a=00001010  INPUT b=00001110 RESULT=11110101 |||| M=0 sel=0100 clk=0 sh=0  carry =z   time=               66734
+INPUT a=00001010  INPUT b=00001111 RESULT=11110101 |||| M=0 sel=0100 clk=0 sh=0  carry =z   time=               66735
+INPUT a=00001011  INPUT b=00000000 RESULT=11110100 |||| M=0 sel=0100 clk=0 sh=0  carry =z   time=               66736
+INPUT a=00001011  INPUT b=00000001 RESULT=11110100 |||| M=0 sel=0100 clk=0 sh=0  carry =z   time=               66737
+INPUT a=00001011  INPUT b=00000010 RESULT=11110100 |||| M=0 sel=0100 clk=0 sh=0  carry =z   time=               66738
+INPUT a=00001011  INPUT b=00000011 RESULT=11110100 |||| M=0 sel=0100 clk=0 sh=0  carry =z   time=               66739
+INPUT a=00001011  INPUT b=00000100 RESULT=11110100 |||| M=0 sel=0100 clk=0 sh=0  carry =z   time=               66740
+INPUT a=00001011  INPUT b=00000101 RESULT=11110100 |||| M=0 sel=0100 clk=0 sh=0  carry =z   time=               66741
+INPUT a=00001011  INPUT b=00000110 RESULT=11110100 |||| M=0 sel=0100 clk=0 sh=0  carry =z   time=               66742
+INPUT a=00001011  INPUT b=00000111 RESULT=11110100 |||| M=0 sel=0100 clk=0 sh=0  carry =z   time=               66743
+
+INPUT a=00001000  INPUT b=00001110 RESULT=00000110 |||| M=0 sel=0010 clk=0 sh=0  carry =z   time=               66190
+INPUT a=00001000  INPUT b=00001111 RESULT=00000111 |||| M=0 sel=0010 clk=0 sh=0  carry =z   time=               66191
+INPUT a=00001001  INPUT b=00000000 RESULT=00001001 |||| M=0 sel=0010 clk=0 sh=0  carry =z   time=               66192
+INPUT a=00001001  INPUT b=00000001 RESULT=00001000 |||| M=0 sel=0010 clk=0 sh=0  carry =z   time=               66193
+INPUT a=00001001  INPUT b=00000010 RESULT=00001011 |||| M=0 sel=0010 clk=0 sh=0  carry =z   time=               66194
+INPUT a=00001001  INPUT b=00000011 RESULT=00001010 |||| M=0 sel=0010 clk=0 sh=0  carry =z   time=               66195
+INPUT a=00001001  INPUT b=00000100 RESULT=00001101 |||| M=0 sel=0010 clk=0 sh=0  carry =z   time=               66196
+INPUT a=00001001  INPUT b=00000101 RESULT=00001100 |||| M=0 sel=0010 clk=0 sh=0  carry =z   time=               66197
+INPUT a=00001001  INPUT b=00000110 RESULT=00001111 |||| M=0 sel=0010 clk=0 sh=0  carry =z   time=               66198
+INPUT a=00001001  INPUT b=00000111 RESULT=00001110 |||| M=0 sel=0010 clk=0 sh=0  carry =z   time=               66199
+INPUT a=00001001  INPUT b=00001000 RESULT=00000001 |||| M=0 sel=0010 clk=0 sh=0  carry =z   time=               66200
+INPUT a=00001001  INPUT b=00001001 RESULT=00000000 |||| M=0 sel=0010 clk=0 sh=0  carry =z   time=               66201
+INPUT a=00001001  INPUT b=00001010 RESULT=00000011 |||| M=0 sel=0010 clk=0 sh=0  carry =z   time=               66202
+INPUT a=00001001  INPUT b=00001011 RESULT=00000010 |||| M=0 sel=0010 clk=0 sh=0  carry =z   time=               66203
+INPUT a=00001001  INPUT b=00001100 RESULT=00000101 |||| M=0 sel=0010 clk=0 sh=0  carry =z   time=               66204
+INPUT a=00001001  INPUT b=00001101 RESULT=00000100 |||| M=0 sel=0010 clk=0 sh=0  carry =z   time=               66205
+INPUT a=00001001  INPUT b=00001110 RESULT=00000111 |||| M=0 sel=0010 clk=0 sh=0  carry =z   time=               66206
